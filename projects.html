@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="experience.html">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Baltimore Open Data Project</h1>
+            <h3>Towson University, Towson, Maryland</h3>
+            <h4>(August 2022 - May 2023)</h4>
+            <p>Project Overview</p>
+            <ul>
+                <li>Collected and compiled data from the Baltimore Open Data database and analyzed datasets detailing
+                    opioid
+                    epidemic and vacant homes in Baltimore (cleaned and organized 5000+ rows of data collected using
+                    Microsoft
+                    Excel and R)</li>
+                <li>Utilized R to create a linear regression model to identify if there is a strong correlation between
+                    these
+                    public health issues within Baltimore City, the model is visualized with a scatterplot graph and a
+                    regression line</li>
+                <li>Created bar graphs using ggplot in R, visualizing the counts of zip codes and Community Statistical
+                    Areas
+                    (CSAs)</li>
+                <li>Gained experiential learning using R for statistical analysis, statistical modeling, and data
+                    analysis</li>
+            </ul>
+            <h1>Log Parsing Project</h1>
+            <h3>Northwest Federal Credit Union, Herndon, Virginia</h3>
+            <h4>(July 2023)</h4>
+            <p>Project Overview</p>
+            <ul>
+                <li>Tasked with finding error lines in log files and categorizing the errors</li>
+                <li>Monitored bulk data loads being done in Airflow by parsing log files in different DAG runs</li>
+                <li>Used Python to code a program that would parse through log files in directories and subdirectories
+                    and parse out error lines</li>
+                <ul>
+                    <li>The Python code counts each error type (task or job) and counts task type</li>
+                    <li>The Python code returns the file path of log files that contain error lines</li>
+                    <li>The previous information was compiled and outputted to a text file for the Data Development team
+                    </li>
+                </ul>
+                <li>Pathlib library was used to iterate through each directory and subdirectory, and a nested for loop
+                    including if statements were used for data validation, counting errors, and printing file paths</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Jamari Williams</p>
+    </footer>
+</body>
+
+</html>
